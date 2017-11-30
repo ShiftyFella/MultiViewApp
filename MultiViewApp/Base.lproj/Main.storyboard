@@ -117,7 +117,7 @@
                                 </tableViewCellContentView>
                                 <connections>
                                     <segue destination="NSG-Mn-n8S" kind="show" identifier="ShowFontSizes" id="0xz-WJ-LcM"/>
-                                    <segue destination="t5u-Mb-IAQ" kind="show" trigger="accessoryAction" id="K4G-T7-jKl"/>
+                                    <segue destination="t5u-Mb-IAQ" kind="show" identifier="ShowFontInfo" trigger="accessoryAction" id="K4G-T7-jKl"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
