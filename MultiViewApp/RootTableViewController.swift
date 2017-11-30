@@ -56,7 +56,7 @@ class RootTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if indexPath.section == 0 {
             let cell = tableView.dequeueReusableCell(withIdentifier: RootTableViewController.familyCell, for: indexPath)
-            cell.textLabel?.font = fontFordisplay(atIndexPath: indexPath)
+            cell.textLabel?.font = fontFordisplay(atIndexPath: indexPath as NSIndexPath)
             cell.textLabel?.text = familyNames[indexPath.row]
             cell.detailTextLabel?.text = familyNames[indexPath.row]
             return cell
