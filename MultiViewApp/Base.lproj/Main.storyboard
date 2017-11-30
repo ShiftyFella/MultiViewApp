@@ -81,7 +81,7 @@
                 </tableViewCell>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Hz-wa-D1W" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="908" y="59"/>
+            <point key="canvasLocation" x="-700" y="-415"/>
         </scene>
         <!--Font List View Controller-->
         <scene sceneID="ufr-Tg-gwC">
@@ -116,7 +116,8 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="NSG-Mn-n8S" kind="show" id="bhL-Oe-TvM"/>
+                                    <segue destination="NSG-Mn-n8S" kind="show" identifier="ShowFontSizes" id="0xz-WJ-LcM"/>
+                                    <segue destination="t5u-Mb-IAQ" kind="show" trigger="accessoryAction" id="K4G-T7-jKl"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -128,7 +129,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OHp-MC-SoT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1606" y="59"/>
+            <point key="canvasLocation" x="153" y="-166"/>
         </scene>
         <!--Font Sizes View Controller-->
         <scene sceneID="b19-XJ-97F">
@@ -172,7 +173,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ygt-EP-7xJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2270" y="59"/>
+            <point key="canvasLocation" x="1474" y="59"/>
         </scene>
         <!--Font Info View Controller-->
         <scene sceneID="loC-iJ-Ybs">
@@ -203,7 +204,7 @@
                                     <action selector="toggleFavoriteWithSender:" destination="t5u-Mb-IAQ" eventType="valueChanged" id="PaQ-NP-N2Y"/>
                                 </connections>
                             </switch>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="gsq-Df-hjb">
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="1" maxValue="200" translatesAutoresizingMaskIntoConstraints="NO" id="gsq-Df-hjb">
                                 <rect key="frame" x="14" y="618" width="306" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
@@ -211,7 +212,7 @@
                                 </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xn7-Rk-WiR">
-                                <rect key="frame" x="16" y="118" width="343" height="50"/>
+                                <rect key="frame" x="16" y="34" width="343" height="506"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -230,7 +231,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9q9-mB-5To" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="908" y="720.08995502248877"/>
+            <point key="canvasLocation" x="1472.8" y="715.59220389805103"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="5Pk-bR-9nx">
@@ -246,7 +247,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NBz-qD-Exf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="255" y="59"/>
+            <point key="canvasLocation" x="-1428" y="-185"/>
         </scene>
     </scenes>
 </document>
